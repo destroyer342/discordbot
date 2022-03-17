@@ -20,4 +20,4 @@ if (message.author.bot == false){
     
 }
 })
-client.login(process.env.TOKEN)
+client.login(process.env.discordToken)
