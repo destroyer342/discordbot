@@ -16,6 +16,7 @@ client.on("messageCreate", (message) => {
 if (message.author.bot == false){
 
     message.reply(`${message}`)
+    console.log("it workz")
    
     
 }
