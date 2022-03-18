@@ -46,13 +46,13 @@ const styleGasMessage = () => {
     const embed = new MessageEmbed().setTitle('⛽ Current Gas Prices');
     if (gasPrices.result.FastGasPrice > 200) {
         embed.setColor('#ff0000');
-        embed.setImage('https://c.tenor.com/-kZOB16tELEAAAAC/this-is-fine-fire.gif');
+        embed.setImage('https://c.tenor.com/uRc1vj-bIc4AAAAC/hopeless-disappointed.gif');
     } else if (gasPrices.result.FastGasPrice > 100) {
         embed.setColor('#ff0000');
-        embed.setImage('https://c.tenor.com/O2Tz9B1UEMsAAAAd/sxv-wtf.gif');
+        embed.setImage('https://c.tenor.com/wpdtv9JEmugAAAAC/not-good.gif');
     } else if (gasPrices.result.FastGasPrice > 40) {
         embed.setColor('#ff8000');
-        embed.setImage('https://c.tenor.com/WpSTTJe3SpgAAAAC/not-good-enough-randy-marsh.gif');
+        embed.setImage('https://c.tenor.com/nLp5KSdID1IAAAAM/packpack-kid-party-time.gif');
     } else {
         embed.setColor('#2fff00');
         embed.setImage('https://c.tenor.com/xxFSg4CCwmwAAAAC/leonardo-dicaprio-maket-it-rain.gif');
