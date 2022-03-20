@@ -58,9 +58,9 @@ const styleGasMessage = () => {
         embed.setImage('https://c.tenor.com/xxFSg4CCwmwAAAAC/leonardo-dicaprio-maket-it-rain.gif');
     }
 
-    embed.addFields({ name: 'Slow 🐢 | >10 minutes', value: `${gasPrices.result.SafeGasPrice} Gwei` },
-        { name: 'Proposed 🚶 | 3 minutes', value: `${gasPrices.result.ProposeGasPrice} Gwei` },
-        { name: 'Fast ⚡ | 15 seconds', value: `${gasPrices.result.FastGasPrice} Gwei` },
+    embed.addFields({ name: 'Slow 🐢 | >10 minutes', value: `hahahaha` },
+        { name: 'Proposed 🚶 | 3 minutes', value: `hahahaha` },
+        { name: 'Fast ⚡ | 15 seconds', value: `hahahaha` },
     );
     return [embed];
     
@@ -105,7 +105,7 @@ const checkAlerts = () => {
     })
 }
 
-setInterval(getGas, 10 * 2000);
+setInterval(getGas, 5 * 1000);
 setInterval(checkAlerts, 10 * 3000);
 
 client.on('interactionCreate', (interaction) => {
